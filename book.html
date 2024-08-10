@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="book.css">
+    
+
+</head>
+<body>
+    
+    <div class="navbar">
+        <h1>BOOKSKY</h1>
+    </div>
+    <div id="contain" class="container">
+         <div class="bookhold">
+             <h2>Allah, The almighty</h2>
+            <h3><i>fghjk</i></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ipsum repudiandae eum officia. Laboriosam tempore cum nobis reprehenderit veniam consequatur eum amet nisi, deleniti, eius nostrum ducimus? Optio sequi distinctio accusamus praesentium maiores quam asperiores autem magni!</p>
+            <button onclick="del(event)">Delete</button>
+         </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <h2>ADD BOOK</h2>
+    <form >
+        <input type="text" placeholder="Book Title" id="booktitle">
+        <input type="text"placeholder="Book Author" id="bookauth">
+        <textarea placeholder="Short Description" id="bookdes"></textarea>
+        <button id="add">Add</button>
+        <button id="cancel">Cancel</button>
+    </form>
+</div>
+
+ <button id="addbtn" >+</button>
+    <script src="script.js"></script>
+   
+</body>
+</html>

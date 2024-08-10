@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    background-color: #1A4D2E;
+    color: #E8DFCA;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+   
+    
+}
+
+.navbar h1{
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.bookhold{
+width: 20%;
+padding: 20px;
+border-radius: 30px;
+background-color:#4F6F52;
+display: inline-block;
+vertical-align: top;
+margin-top: 100px;
+margin-left: 30px;
+
+}
+.bookhold h2{
+    color: #E8DFCA;
+    
+   
+}
+.bookhold h3{
+    color: #F5EFE6;
+    padding: 10px;
+   
+}
+
+
+.bookhold button{
+    margin-top: 15px;
+    border: none;
+    background-color: #E8DFCA;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    border-radius: 10px; 
+    width: 48px;
+}
+.bookhold p{
+    color:burlywood;
+    
+}
+
+#addbtn{
+    font-size: 80px;
+    border-radius: 100%;
+    width:90px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #E8DFCA;
+    border: none;
+    z-index: 2;
+   
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  display: none;
+   
+}
+.popupbox{
+    width: 35%;
+    background-color: #4F6F52;
+    border-radius: 20px;
+    position: absolute;
+    top:20%;
+    left: 35%;
+     z-index: 4;
+     padding: 15px;
+    display: none;
+}
+.popupbox input{
+   width: 100%;
+  margin-top: 10px;
+   height: 30px;
+   font-size: 15px;
+   border: none;
+   border-bottom: 1.5px solid black;
+   background-color: transparent;
+}
+.popupbox textarea{
+    width: 100%;
+   margin-top: 10px;
+    height: 50px;
+    font-size: 15px;
+    border: 1.5px solid black;
+    background-color: transparent;
+ }
+ .popupbox input::placeholder{
+    color:darkseagreen;
+    padding: 10px;
+ }
+ .popupbox textarea::placeholder{
+    color:darkseagreen;
+    padding: 5px;
+    margin-top: 10px;
+ }
+ .popupbox input:focus{
+    outline: none;
+ }
+ .popupbox textarea:focus{
+    outline: none;
+ }
+ .popupbox button{
+    width: 60px;
+   border: none;
+   margin: 20px;
+   height: 25px;
+   border-radius: 30px;
+   background-color: #E8DFCA;
+   font-size: 15px;
+ }
+ .popupbox h2{
+    text-align: center;
+ }
+ @media only screen and (max-width: 400px){
+    .bookhold{
+        width: 200px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+    }
+    .popupbox{
+        width: 250px;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+    }
+    
+ }
